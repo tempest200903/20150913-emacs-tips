@@ -1,0 +1,17 @@
+# -*- coding: utf-8-unix; mode: org; -*-
+#+OPTIONS: ^:nil
+#+TITLE: org-export-html すると、 URL の中にあるアンダースコアの直前にバックスラッシュが入ってしまう。
+#+AUTHOR: tempest200903
+#+DATE: 2015-09-14
+#+DESCRIPTION: org-export-html すると、 URL の中にあるアンダースコアの直前にバックスラッシュが入ってしまう。
+#+KEYWORDS: emacs org-mode
+#+LANGUAGE: ja
+
+* org-export-html-avoid-escape
+** 現象
+- org-export-html すると、 URL や TITLE の中にあるアンダースコアの直前にバックスラッシュが入ってしまう。
+** 解決方法
+- URL encode すれば回避できる。
+- アンダースコアを %5F に置換しておく。
+** 参考
+- なし。
