@@ -15,4 +15,4 @@
 
 ** menu
 
-- file:document/org-export-html-avoid-escape.org.txt
+- file:document/org-export-html-avoid-escape.org.html
